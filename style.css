@@ -8,10 +8,15 @@ h1{
     letter-spacing: 2px;
     font-weight: 400;
 }
+h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
 div span{
     color:#FFA500;
 }
-section{
+.flexible-area{
     display: flex;
 }
 .half-width{
@@ -38,4 +43,25 @@ section{
     background-image: url('images/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right;
+}
+.shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 7px solid tomato;
+}
+.experience-area{
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 80px;
+}
+footer p{
+    text-align: center;
+    color: rgba(128, 128, 128, 0.781);
+    font-weight: 400;
+    letter-spacing: 3px;
 }
